@@ -25,8 +25,7 @@ class ListModel {
   bool ?success;
   int ?totalBlogs;
   String ?message;
-  int ?offset;
-  int ?limit;
+  int ?offset;  int ?limit;
   List<Blogs> ?blogs;
 
   Map<String, dynamic> toJson() {

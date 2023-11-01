@@ -4,14 +4,17 @@ import 'package:http/http.dart' as http;
 import 'Utils/app_urls.dart';
 
 class ListViewData {
-  String title, url, description;
+  String title, url, description, categories, createdAt;
   int UserId;
 
   ListViewData(
       {required this.title,
       required this.url,
       required this.UserId,
-      required this.description});
+      required this.description,
+      required this.categories,
+        required this.createdAt
+      });
 }
 
 class StatesService {
